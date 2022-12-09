@@ -83,7 +83,7 @@ def test_quando_brincadeira_receber_menos_1_entao_deve_retornar_None():
     assert brincadeira(-1) == 'goiabada'
 
 
-@mark.parametrizado
+@mark.parametrizado1
 @mark.parametrize('entrada', [5, 10, 20, 25, 35])
 def test_brincadeira_deve_retornar_goiabada_com_multiplos_de_5(entrada):
     assert brincadeira(entrada) == 'goiabada'
